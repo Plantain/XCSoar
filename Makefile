@@ -136,6 +136,7 @@ DIALOG_SOURCES = \
 	$(SRC)/Dialogs/dlgTeamCode.cpp \
 	$(SRC)/Dialogs/dlgTextEntry.cpp \
 	$(SRC)/Dialogs/dlgTextEntry_Keyboard.cpp \
+	$(SRC)/Dialogs/dlgThermalAssistent.cpp \
 	$(SRC)/Dialogs/dlgHelpers.cpp \
 	$(SRC)/Dialogs/dlgVegaDemo.cpp \
 	$(SRC)/Dialogs/dlgVoice.cpp \

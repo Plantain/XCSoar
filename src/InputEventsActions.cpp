@@ -694,6 +694,8 @@ InputEvents::eventAnalysis(const TCHAR *misc)
 void
 InputEvents::eventWaypointDetails(const TCHAR *misc)
 {
+  dlgThermalAssistentShowModal();
+  return;
   const Waypoint* wp = NULL;
 
   if (_tcscmp(misc, TEXT("current")) == 0) {
